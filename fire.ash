@@ -8,9 +8,9 @@ t cal -de 1
 sleep 2
 t app fp_show 4
 sleep 2
-t app fp_string 'Say Cheese'
+t app fp_string 'Say	 Cheese'
 sleep 2
-pp fp_show 4
+t app fp_show 4
 sleep 1
 t app fp_string '3'
 sleep 1

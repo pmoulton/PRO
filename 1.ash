@@ -1,16 +1,17 @@
-sleep 5
+sleep 1
+t app button wifi PR
+sleep 1
 t app appmode video
-sleep 3
+sleep 1
 t app button shutter PR
-sleep 20
+sleep 5
 t app button shutter PR
-sleep 3
+t app appmode photo
 t app appmode photo
 sleep 2
 t app button shutter PR
 t cal -de 6
 sleep 2
 t app button shutter PR
-t app led_count 0
-t app led red_front on
-t app button wifi PR
+sleep 4
+t app test usb_rs232 1

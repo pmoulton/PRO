@@ -13,12 +13,17 @@ t app led red_top_bottom on
 t app led red_back on
 t app fp_show 4
 sleep 3
-t app fp_string '802.11	    @10.5.5.9	port:8080'
-sleep 1
+t app fp_string '	'
+sleep 3
+t app fp_show 4
+t app fp_string '802/11        Wifi'
+sleep 2
 t app button wifi P
 sleep 3
 t app button wifi R
 sleep 20
+t app fp_string '	'
+sleep 1
 t app fp_string 'Power Off in 3'
 sleep 1
 t app led red_front on

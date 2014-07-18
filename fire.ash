@@ -5,7 +5,26 @@ sleep 3
 t app fp_string 'Hello World'
 sleep 2
 t cal -de 1
+sleep 2
+t app fp_show 4
+sleep 2
+t app fp_string 'Say Cheese'
+sleep 2
+pp fp_show 4
 sleep 1
+t app fp_string '3'
+sleep 1
+t app led red_front on
+sleep 1
+t app led red_front off
+sleep 1
+t app fp_string '2'
+sleep 1
+t app led red_front on
+sleep 1
+t app led red_front off
+sleep 1
+t app fp_string '1'
 t app button shutter PR
 sleep 2
 t app led red_front on

@@ -29,12 +29,12 @@ sleep 2
 t app button wifi P
 sleep 3
 t app button wifi R
-sleep 20
+sleep 35
 sleep 2
 t app fp_show 4
 sleep 3
 t app fp_string 'End AF'
-sleep 2
+sleep 5
 t app fp_show 4
 sleep 3
 t app fp_string 'Hello    World'

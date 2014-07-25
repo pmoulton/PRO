@@ -3,8 +3,10 @@ PRO
 
 Go Pro testing scripts using ambarella shell
 
-***Use release branch for testing***
-***Use wifi branch for control***
+***Use release branch for testing***    
+
+***Use wifi branch for control***   
+
 use http://pmoulton.github.io/PRO
 
 Autoexec.ash is the most updated current script. 

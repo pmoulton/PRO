@@ -1,19 +1,19 @@
 #
+# power on
 sleep 2
+# change mode to photo
 t app appmode photo
-t cal -de 1
 sleep 2
 t app fp_show 4
 sleep 2
 t app fp_string 'Say    Cheese'
 sleep 2
-t app fp_show 4
-sleep 1
-t app fp_string '1'
+# take picture
 t app button shutter PR
 sleep 2
 t app fp_show 4
 sleep 2
+# check LED's
 t app fp_string 'Test   Lights'
 sleep 2
 t app led red_front on
@@ -24,6 +24,7 @@ sleep 3
 t app fp_string '	'
 sleep 3
 t app fp_show 4
+# get content
 t app fp_string '802 11        Wifi'
 sleep 2
 t app button wifi P
@@ -39,8 +40,10 @@ t app fp_show 4
 sleep 3
 t app fp_string 'Hello    World'
 sleep 2
+# change mode to video
 t app appmode video
 sleep 2
+# start recording
 t app button shutter PR
 sleep 3
 t app button shutter PR

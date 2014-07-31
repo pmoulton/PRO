@@ -3,8 +3,7 @@ PRO
 
 Go Pro testing scripts using ambarella shell
 
-Autoexec.ash is the most updated current script. Currently turns on wifi for control from http://pmoulton.github.io/PRO. Pages updated from gh-pages branch.
-Also used autoexec.ash for extremely hot temperatures.
+Autoexec.ash is the most updated current script. Autoexec.ash changes to photo mode, takes a picture, takes a five second video, and then turns on wifi.
 
 Wifi = Turns on wifi on boot for web interface control.
 FF = Full functional test

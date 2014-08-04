@@ -1,7 +1,5 @@
-sleep 1
-t app appmode photo
-sleep 1
+sleep 2
 t app button shutter PR
-sleep 1
+sleep 2
 poweroff yes
 reboot yes
